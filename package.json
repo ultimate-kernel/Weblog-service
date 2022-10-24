@@ -30,6 +30,7 @@
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
+    "chalk": "^5.1.2",
     "class-validator": "^0.13.2",
     "cross-env": "^7.0.3",
     "mongoose": "^6.6.6",
