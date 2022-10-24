@@ -6,7 +6,7 @@
   "private": true,
   "license": "MIT",
   "homepage": "https://github.com/ultimate-kernel/weblog-service#readme",
-  "documentation": "https://github.com/ultimate-kernel/weblog-service#readme",
+  "documentation": "https://github.com/ultimate-kernel/weblog-service",
   "repository": {
     "type": "git",
     "url": "https://github.com/ultimate-kernel/weblog-service.git"
