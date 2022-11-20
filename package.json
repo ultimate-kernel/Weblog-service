@@ -31,7 +31,7 @@
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
     "@typegoose/typegoose": "^9.12.1",
-    "chalk": "^5.1.2",
+    "chalk": "4.x",
     "class-validator": "^0.13.2",
     "cross-env": "^7.0.3",
     "mongoose": "^6.7.2",
