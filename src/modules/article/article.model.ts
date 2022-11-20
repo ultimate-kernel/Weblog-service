@@ -1,4 +1,4 @@
-import { prop, Ref } from '@typegoose/typegoose';
+import { prop } from '@typegoose/typegoose';
 import {
   IsString,
   IsBoolean,
@@ -8,9 +8,10 @@ import {
   IsDefined,
   MaxLength,
   Matches,
-  ArrayNotEmpty,
   ArrayUnique,
 } from 'class-validator';
+
+import { getProviderByTypegooseClass } from '@app/transformers/model.transformer';
 
 export class Article {
   @prop({ unique: true })
@@ -47,13 +48,6 @@ export class Article {
   @IsOptional()
   @prop({ type: String, default: null })
   thumb: string | null;
-
-  // category
-  @ArrayUnique()
-  @ArrayNotEmpty()
-  @IsArray()
-  @prop({ ref: () => Category, required: true, index: true })
-  category: Ref<Category>[];
 
   // disabled comment
   @IsBoolean()
