@@ -1,15 +1,15 @@
 {
-  "name": "weblog-service",
+  "name": "easyblog-service",
   "version": "1.0.0",
-  "description": "RESTful API service for weblog powered by @nestjs",
+  "description": "RESTful API service for easyblog powered by @nestjs",
   "author": "Aaron Lam",
   "private": true,
   "license": "MIT",
-  "homepage": "https://github.com/ultimate-kernel/weblog-service#readme",
-  "documentation": "https://github.com/ultimate-kernel/weblog-service",
+  "homepage": "https://github.com/ultimate-kernel/easyblog-service#readme",
+  "documentation": "https://github.com/ultimate-kernel/easyblog-service",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ultimate-kernel/weblog-service.git"
+    "url": "https://github.com/ultimate-kernel/easyblog-service.git"
   },
   "scripts": {
     "prebuild": "rimraf dist",
