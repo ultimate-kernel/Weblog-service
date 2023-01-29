@@ -2,7 +2,7 @@
  * @file Model transform & helper
  * @module transformer/model
  * @description transform Typegoose Class into model & provider & injecter
- * @link https://github.com/kpfromer/nestjs-typegoose/blob/master/src/typegoose.providers.ts
+ * @link https://kpfromer.github.io/nestjs-typegoose/docs/usage
  */
 
 import { Connection } from 'mongoose';
